@@ -231,14 +231,14 @@ int main(int argc, char **argv)
 	int z;
     int opt;
 	int port;
-	
-	int buffersize = 256;
-	char buffer[buffersize];
-	
-	int addrSize = 128;
+
+	int addrSize = 64;
 	char addr[addrSize];
 	memset (addr, '\0', addrSize);
 	
+	int buffersize = 256;
+	char buffer[buffersize];
+
 	int cmdSize = 256;
 	char command[cmdSize];
 	memset (command, '\0', cmdSize);
