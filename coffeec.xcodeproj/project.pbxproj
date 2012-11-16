@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B5EC71021655E9B000D440E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EC71011655E9B000D440E5 /* main.cpp */; };
 		B5EC71041655E9B000D440E5 /* coffeec.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B5EC71031655E9B000D440E5 /* coffeec.1 */; };
+		B5EC710C1655E9D200D440E5 /* coffeec.c in Sources */ = {isa = PBXBuildFile; fileRef = B5EC710B1655E9D200D440E5 /* coffeec.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B5EC70FD1655E9B000D440E5 /* coffeec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coffeec; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EC71011655E9B000D440E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B5EC71031655E9B000D440E5 /* coffeec.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = coffeec.1; sourceTree = "<group>"; };
+		B5EC710A1655E9D200D440E5 /* coffeec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coffeec.h; sourceTree = "<group>"; };
+		B5EC710B1655E9D200D440E5 /* coffeec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coffeec.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		B5EC71001655E9B000D440E5 /* coffeec */ = {
 			isa = PBXGroup;
 			children = (
+				B5EC710A1655E9D200D440E5 /* coffeec.h */,
+				B5EC710B1655E9D200D440E5 /* coffeec.c */,
 				B5EC71011655E9B000D440E5 /* main.cpp */,
 				B5EC71031655E9B000D440E5 /* coffeec.1 */,
 			);
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EC71021655E9B000D440E5 /* main.cpp in Sources */,
+				B5EC710C1655E9D200D440E5 /* coffeec.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
